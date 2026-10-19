@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MyHeartHealth</title>
+<style>
+:root { --bg: #ffffff; --text: #1d1d1f; --muted: #6e6e73; --line: #d2d2d7; --accent: #d70015; --card: #f5f5f7; }
+@media (prefers-color-scheme: dark) { :root { --bg: #000000; --text: #f5f5f7; --muted: #a1a1a6; --line: #424245; --accent: #ff453a; --card: #1c1c1e; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 10px; margin-bottom: 24px; }
+header a { color: var(--text); text-decoration: none; font-weight: 600; }
+nav { margin-left: auto; display: flex; gap: 16px; font-size: 15px; }
+nav a { color: var(--muted); font-weight: 400; }
+h1 { font-size: 34px; line-height: 1.15; margin: 8px 0 12px; }
+h2 { font-size: 22px; margin: 32px 0 8px; }
+a { color: var(--accent); }
+table { width: 100%; border-collapse: collapse; font-size: 15px; display: block; overflow-x: auto; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+.card { background: var(--card); border-radius: 14px; padding: 16px 18px; margin: 16px 0; }
+.muted { color: var(--muted); }
+footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<header><span aria-hidden="true">❤️</span><a href="index.html">MyHeartHealth</a>
+<nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav></header>
+
+<h1>MyHeartHealth</h1>
+<p class="muted">Blood pressure log &amp; charts for patients and doctors.</p>
+<div class="card">
+<p>Track blood pressure and pulse on clear charts. Snap a photo of a handwritten log or your monitor, and the
+readings are filled in for you to review. Share a PDF report with your doctor.</p>
+</div>
+<p><a href="support.html">Support</a> · <a href="privacy.html">Privacy policy</a> · <a href="mailto:toronto.tristan@gmail.com">Contact</a></p>
+
+<footer>MyHeartHealth is a record-keeping tool, not a medical device. It does not diagnose or treat any condition.</footer>
+</main>
+</body>
+</html>
